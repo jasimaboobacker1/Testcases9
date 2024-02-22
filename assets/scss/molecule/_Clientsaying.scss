@@ -1,0 +1,20 @@
+.client-body{
+    max-width: 50%;
+    height: auto;
+    padding: $spacer-2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__clienth1{
+        color: $color-darkblue;
+        font-size: $spacer-5;
+    }
+    &__clientp{
+        width: 570px;
+        height: auto;
+        text-align: start;
+        margin-top: $spacer-2;
+    }
+}

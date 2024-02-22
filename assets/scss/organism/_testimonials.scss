@@ -1,0 +1,11 @@
+.testimonial{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-darkblue;
+    padding: $spacer-3;
+    color: $color-white;
+    font-size: $spacer-3;
+}

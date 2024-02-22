@@ -1,0 +1,26 @@
+// base
+@import './base/base';
+@import './base/color';
+@import './base/mixin';
+@import './base/spacer';
+
+// atom
+@import './atom/button';
+
+
+// molecules
+@import './molecule/Clientsaying';
+@import './molecule/videopart';
+@import './molecule/lorem-tile';
+
+
+
+// organism
+@import './organism/navbar';
+@import './organism/first-secyion';
+@import './organism/testimonials';
+@import './organism/second-section';
+@import './organism/third-section';
+@import './organism/footer'
+
+

@@ -1,0 +1,117 @@
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: $spacer-6;
+    padding-top: $spacer-3;
+    background-color: $color-darkblue;
+
+    .right-container{
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .inductries{
+            width: 30%;
+            height: 200px;
+            h3{
+                margin-top: $spacer-1;
+                color: $color-white;
+            }
+        }
+    }
+
+
+.left-container{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: $color-darkblue;
+   
+    .righttt{
+        width: 400px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: $spacer-2;
+        .oneee{
+            width: 50%;
+            height: auto;
+            color: $color-white;
+            h3{
+                margin-top: $spacer-1;
+            }
+            
+        }
+        .twooo{
+            width: 50%;
+            height: auto;
+            color: $color-white;
+            margin-top: $spacer-3;
+            h3{
+                margin-top: $spacer-1;
+            }
+            
+        }
+
+    }
+    .lefttt{
+        width: 210px;
+        height: auto;
+        color: $color-white;
+        display: flex;
+        flex-direction: column;
+        &__h3{
+            margin-top: $spacer-1;
+        }
+    
+    .imagefooter{
+        width: 150px;
+        height: 40px;
+    }
+  }
+}
+}
+
+@include mobile{
+    .footer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        background-color: #13274F;
+    }
+    .footer .left-container .righttt .oneee {
+        width: 100%;
+        height: auto;
+        color: white;
+    }
+    .footer .left-container .righttt .twooo {
+        width: 100%;
+        height: auto;
+        color: white;
+        margin-top: 30px;
+    }
+
+    .footer .right-container {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer .right-container .inductries {
+        width: 100%;
+        height: 200px;
+    }
+}

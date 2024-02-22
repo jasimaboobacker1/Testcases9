@@ -1,0 +1,10 @@
+.button{
+    width: 100px;
+    width: auto;
+    padding: $spacer-1;
+    background-color: $color-darkblue;
+    color: $color-white;
+    &__icon{
+        padding-left: $spacer-1;
+    }
+}

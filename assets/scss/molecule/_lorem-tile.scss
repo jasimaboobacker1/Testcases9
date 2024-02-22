@@ -1,0 +1,24 @@
+.tile{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid $color-grey;
+    padding: $spacer-2;
+    &__heading{
+        font-size: $spacer-2;
+        margin-bottom: $spacer-1;
+        color: $color-darkblue;
+    }
+    &__heading4{
+        margin-top: $spacer-2;
+        font-family: Lato, sans-serif;
+                font-weight: 900;
+    }
+    &__p{
+        color: $color-grey;
+
+    }
+    
+}
